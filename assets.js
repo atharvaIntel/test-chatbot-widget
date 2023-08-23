@@ -113,4 +113,4 @@ export const CLOSE_ICON = `
         <line x1="6" y1="6" x2="18" y2="18"></line>
     </svg>
 `;
-export const img_logo = "./assets/msoa-blue.png";
+export const img_logo = "msoa-blue.png";
