@@ -1,4 +1,4 @@
-import { CLOSE_ICON, MESSAGE_ICON, styles } from "./assets.js";
+import { CLOSE_ICON, MESSAGE_ICON, styles, img_logo} from "./assets.js";
 
 class MessageWidget {
   constructor(position = "bottom-right") {
@@ -81,7 +81,7 @@ class MessageWidget {
   createWidgetContent() {
     this.widgetContainer.innerHTML = `
         <header class="widget__header">
-        <img src="assets/msoa-blue.png" alt="MSOA Logo" class="widget__logo">
+        <img src="${img_logo}" alt="MSOA Logo" class="widget__logo">
             <h3>Welcome to CBaaS - UKP</h3>
         </header>
         <form>
