@@ -82,7 +82,7 @@ class MessageWidget {
     this.widgetContainer.innerHTML = `
         <header class="widget__header">
         <img src="${img_logo}" alt="MSOA Logo" class="widget__logo">
-            <h3>Welcome to CBaaS - UKP</h3>
+            <h3>Hello to CBaaS - UKP</h3>
         </header>
         <form>
             
